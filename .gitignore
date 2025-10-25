@@ -77,7 +77,6 @@ StyleCopReport.xml
 *.obj
 *.iobj
 *.pch
-*.pdb
 *.ipdb
 *.pgc
 *.pgd
@@ -396,3 +395,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# WinTide
+WinTide/data/wst.db
+WinTide/Resources/Icons/
+WinTide/data/config.xml
+WinTide/data/data.xml
+
