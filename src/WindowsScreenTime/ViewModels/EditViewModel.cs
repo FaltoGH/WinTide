@@ -309,8 +309,9 @@ namespace WindowsScreenTime.ViewModels
         {
             if (SelectedProcess == null)
                 return;
-
-            ViewList.Add(SelectedProcess);
+            if (ViewList.Any(x => x.BaseName == SelectedProcess.BaseName)) { }
+            else
+                ViewList.Add(SelectedProcess);
         }
 
         [RelayCommand]
